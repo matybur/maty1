@@ -1,3 +1,6 @@
+serial.onDataReceived(serial.delimiters(Delimiters.NewLine), function () {
+	
+})
 basic.showLeds(`
     # # # # #
     # # . # #
